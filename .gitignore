@@ -1,0 +1,16 @@
+# environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# large files stay out of Git
+data/*
+models/*
+runs/
+*.pt
+*.onnx
+
+# keep the folders themselves
+!data/.gitkeep
+!models/.gitkeep
